@@ -1,0 +1,80 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
+  align-self: flex-start;
+}
+
+.menu-icon {
+  margin-left: 16.67%;
+  margin-right: 16.67%;
+  bottom: 70.83%;
+}
+
+.headline {
+  background-image: url("../images/header-shapes mobile.svg"); 
+  background-repeat: no-repeat;
+  width: 1397.4px;
+  height: 721.46px;    
+}
+
+.introduction {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+}
+
+.profession {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.social-media {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+}
+
+.social-media-icons {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social-media-icons div {
+    margin: 4px;
+}
+
+
+
+
+
+
