@@ -14,18 +14,23 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Browser
+
+### Install
+
 - clone or download the project
-- using the browser to open the index.html file located in the project root
+
+### Usage
+
+- open the index.html file located in the project root in the browser
 
 
-
-## Authors
-
-👤 **Author**
+## 👤 **Author**
 
 - GitHub: https://github.com/looh16/Hello-Microverse
 - Twitter: https://twitter.com/custodiolanga1
 - LinkedIn: https://www.linkedin.com/in/custodio-serafim-2a318a23a
+
 
 ## Show your support
 
