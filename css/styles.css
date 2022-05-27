@@ -33,7 +33,7 @@
 .headline {
   background-image: url("../images/header-shapes mobile.svg");
   background-repeat: no-repeat;
-  width: 1397.4px;
+  width: 13993.4px;
   height: 721.46px;
   padding-top: 90px;
   margin-left: 10px;
@@ -51,6 +51,7 @@
   color: #172b4d;
   padding-top: 40px;
   margin-left: 22px;
+  padding-bottom: 70px;
 }
 
 .profession {
@@ -63,6 +64,11 @@
   color: #344563;
   padding-top: 10px;
   margin-left: 22px;
+  padding-bottom: 12px;
+}
+
+.profession p {
+  padding-right: 5px;
 }
 
 .social-media {
