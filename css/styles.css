@@ -1,6 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-* {
-  font-family: 'Poppins', sans-serif; 
+
+* { 
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav {
@@ -37,7 +39,6 @@
   height: 721.46px;
   padding-top: 90px;
   margin-left: 10px;
-  font-family: ;
 }
 
 .introduction {
