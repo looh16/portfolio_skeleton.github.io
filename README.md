@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - clone or download the project
-- using the browser open the index.html file located in the project root
+- using the browser to open the index.html file located in the project root
 
 
 
