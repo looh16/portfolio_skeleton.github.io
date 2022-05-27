@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> My Portfolio.
+>Skeleton of the mobile version of my portfolio.
 
 
 ## Built With
@@ -13,11 +13,15 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- Browser
+
+- clone or download the project
+- using the browser open the index.html file located in the project root
+
+
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: https://github.com/looh16/Hello-Microverse
 - Twitter: https://twitter.com/custodiolanga1
