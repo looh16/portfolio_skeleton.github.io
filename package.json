@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/looh16/Portfolio#readme",
   "devDependencies": {
-    "hint": "^6.2.0"
+    "hint": "^6.2.0",
+    "stylelint-config-standard": "^25.0.0"
   }
 }
