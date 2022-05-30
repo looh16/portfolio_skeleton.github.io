@@ -6,19 +6,15 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit);
-  
-
 }
 
-.container > div  {
+.container > div {
   padding: 2rem;
   max-height: 680px;
   min-width: fit-content;
   display: flex;
   flex-direction: column;
-
 }
-
 
 .nav {
   display: flex;
@@ -104,20 +100,30 @@
   margin-left: 22px;
 }
 
-ul {
-  list-style: none;
+.languages-list li {
+  padding: 4px 12px;
+  min-width: fit-content;
+  height: 20px;
+  background: #ebebff;
+  border-radius: 8px;
   display: inline-flex;
+}
+
+.programing-languages li {
+  padding: 4px 12px;
+  min-width: fit-content;
+  height: 60px;
+  border-radius: 8px;
   padding-left: 1px;
-  margin-top: 1px;
 }
 
 .social-media-icons ul li {
   margin: 4px;
   padding-top: 1px;
+  display: inline-flex;
 }
 
 .card-section {
- 
   padding: 10px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -128,31 +134,29 @@ ul {
   width: 327px;
   display: flex;
   flex-direction: column;
- justify-content: center;
+  justify-content: center;
 }
 
 .card {
- box-sizing: border-box;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 16px;
-gap: 12px;
-width: 327px;
-height: 552px;
-background: #FFFFFF;
-border-radius: 16px;
-
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border-radius: 16px;
 }
-
 
 .card-detail {
- display: flex;
- flex-direction: column;
- justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.card-mult-post{
+.card-mult-post {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -161,20 +165,18 @@ border-radius: 16px;
   gap: 12px;
   width: 327px;
   height: 620px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 16px;
-  
 }
 
-.card-mult-post img{
-  
+.card-mult-post img {
   padding: 10%, 10%, 0%, 10%;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
- justify-content: center;
+  justify-content: center;
 }
 
 .card-title {
@@ -204,7 +206,6 @@ border-radius: 16px;
   line-height: 24px;
   color: #344563;
 }
-
 
 .button {
   width: 120px;
@@ -239,8 +240,6 @@ border-radius: 16px;
   border-color: #dfe1e6;
 }
 
-
-
 .languages-list {
   right: 12px;
   font-style: normal;
@@ -258,16 +257,6 @@ ul {
   margin-top: 1px;
 }
 
-.languages-list li {
-display: flex;
-padding: 4px 12px;
-min-width: fit-content;;
-height: 20px;
-background: #EBEBFF;
-border-radius: 8px;
-display: inline-flex;
-}
-
 #languages {
   right: 12px;
   font-style: normal;
@@ -277,7 +266,6 @@ display: inline-flex;
   display: block;
   align-items: center;
   color: #253858;
-  
 }
 
 .programing-languages {
@@ -293,27 +281,6 @@ display: inline-flex;
   padding-left: 1px;
   padding-bottom: 35px;
   display: inline-block;
-}
-
-.programing-languages li{
-padding: 4px 12px;
-min-width: fit-content;;
-height: 60px;
-border-radius: 8px;
-padding-left: 1px;
-}
-
-.button{
-  width: 150px;
-height: 50px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #396DF2;
 }
 
 .about-my-self {
@@ -443,6 +410,3 @@ color: #396DF2;
   justify-content: space-between;
   float: right;
 }
-
-
-
