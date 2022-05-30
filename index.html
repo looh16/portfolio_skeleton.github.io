@@ -11,8 +11,9 @@
 
 <body class="body">
 
-    <div class="grid-container">
-        <div class="header">
+    <div class="container">
+
+        <section class="header">
             <a id="top"></a>
             <header>
                 <nav class="nav">
@@ -20,8 +21,7 @@
                     <div class="menu-icon"><img src="images/Union.svg" alt="Menu Icon"></div>
                 </nav>
             </header>
-
-            <section class="headline">
+            <div class="headline">
                 <div class="introduction">
                     <h1>I’m Custódio<br> Glad to see<br> you!</h1>
                 </div>
@@ -51,149 +51,9 @@
                         <li><a href="default.asp"><img src="images/like.svg" alt="Social Midia"></a></li>
                     </ul>
                 </div>
-            </section>
-        </div>
-
-        <div>
-            <div class="work">
-                <div class="card-tonic">
-                    <img src="images/Snapshoot_portfolio_1.svg" alt="Avatar">
-                    <div class="card-detail">
-                        <div class="card-title">
-                            Tonic
-                        </div>
-                        <div class="card-subtitle">
-                            CANOPY &#8226;Back End Dev &#8226;2022
-                        </div>
-                        <div class="card-message">
-                            A daily selection of privately<br>personalized reads;
-                            no accounts or<br>sign-ups required.
-                        </div>
-                        <div class="program-languages">
-                            <ul class="languages-list">
-                                <li>html</li>
-                                <li>css</li>
-                                <li>javascript</li>
-                            </ul>
-                        </div>
-                        <button type="button" class="button">See Project</button>
-                    </div>
-                </div>
-
-                <div class="card-mult-post">
-                    <img src="images/Snapshoot_portfolio_3.svg" alt="Avatar">
-                    <div class="card-detail">
-                        <div class="card-title">
-                            Tonic
-                        </div>
-                        <div class="card-subtitle">
-                            CANOPY &#8226;Back End Dev &#8226;2022
-                        </div>
-                        <div class="card-message">
-                            A daily selection of privately<br>personalized reads;
-                            no accounts or<br>sign-ups required.
-                        </div>
-                        <div class="program-languages">
-                            <ul class="languages-list">
-                                <li>html</li>
-                                <li>css</li>
-                                <li>javascript</li>
-                            </ul>
-                        </div>
-                        <button type="button" class="button">See Project</button>
-                    </div>
-                </div>
             </div>
-        </div>
-
-        <div>
-            <section class="about-my-self">
-                <div class="self-introduction">
-                    <h1>About<br> Myself</h1>
-                </div>
-                <div class="intro-message">
-                    <p>
-                        I’m a software developer! I can help you<br>
-                        build a product , feature or website Look<br>
-                        through some of my work and<br>
-                        experience! If you like what you see and<br>
-                        have a project you need
-                        coded, don’t<br>
-                        hestiate to contact me.
-                    </p>
-                </div>
-                <div class="social-media">
-                    LET’S CONNECT
-                </div>
-
-                <div class="social-media-icons">
-                    <ul>
-                        <li><a href="https://twitter.com/custodiolanga1"><img src="images/twitter.svg"
-                                    alt="twitter"></a></li>
-                        <li><a href="https://www.linkedin.com/in/custodio-serafim-2a318a23a"><img
-                                    src="images/Linkedin_icon.svg" alt="Linkedin"></a></li>
-                        <li><a href="default.asp"><img src="images/M.svg" alt="Social Midia"></a></li>
-                        <li><a href="https://github.com/looh16/Portfolio"><img src="images/git.svg" alt="Github"></a>
-                        </li>
-                        <li><a href="default.asp"><img src="images/like.svg" alt="Social Midia"></a></li>
-                    </ul>
-                </div>
-
-                <div> <button type="button" class="button-resume">Get my resume</button></div>
-
-                <div class="menu">
-                    <button type="button" class="menu-button" onclick="showItens()">Languages <img src="images/arrow.svg"
-                            alt="twitter" class="arrow"></button>
-                    <div id="languages">
-                        <ul class="languages-list">
-                            <li><a href="#"><img src="images/javascript.svg" alt="Javascript"></a></li>
-                            <li><a href="#"><img src="images/html.svg" alt="HTMN"></a></li>
-                            <li><a href="#"><img src="images/css.svg" alt="CSS"></a></li>
-                        </ul>
-                    </div>
-                    <button type="button" class="menu-button">Frameworks<img src="images/disabled-arrow.svg" alt="twitter"
-                            class="arrow"></button>
-                    <button type="button" class="menu-button">Skills<img src="images/disabled-arrow.svg" alt="twitter"
-                            class="arrow"></button>
-
-                </div>
-            </section>
-        </div>
-        <div>
-            <section class="contact">
-                <div class="contact-title">
-                    <h1>Contact me</h1>
-                </div>
-                <div class="contact-information">
-                    <p>
-                        If you have an application you<br> are interested in developing,
-                        a<br> feature that you need built or a<br> project
-                        that needs coding. I’d<br> love to help with it
-                    </p>
-                </div>
-
-                <form>
-                    <input type="text" value="Yeremias" class="input-label"><br>
-                    <input type="email" value="natajayanj14@gmail.com" class="input-label"><br><br>
-                    <textarea name="w3review" class="input-area" rows="7" cols="35"></textarea>
-                    <input type="submit" value="Get It Touch" class="get-touch">
-                </form>
-
-            </section>
-        </div>
+        </section>
     </div>
-    <script>
-
-        function showItens() {
-            var list = document.getElementById("languages");
-
-            if (list.style.display === "none") {
-                list.style.display = "block";
-            } else {
-                list.style.display = "none";
-            }
-        }
-    </script>
 </body>
 
 </html>
