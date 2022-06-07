@@ -330,7 +330,6 @@ ul {
 .contact {
   width: 400px;
   height: 800px;
-  padding-top: 5px;
   background: #6070ff;
   background-image: url("../images/contact_form.svg");
   background-repeat: no-repeat;
@@ -340,11 +339,6 @@ ul {
   border-top-left-radius: 70px;
   margin-right: 20px;
   background-size: 400px;
-}
-
-label {
-  display: inline-block;
-  text-align: right;
 }
 
 .contact-title h2 {
@@ -371,12 +365,13 @@ label {
   margin-left: 70px;
 }
 
-.input-label {
+input {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-left: 25px;
   padding: 10px 60px;
+  text-align-last: left;
 }
 
 .input-area {
@@ -385,7 +380,7 @@ label {
   border-radius: 8px;
   margin-left: 25px;
   resize: none;
-  padding: 10px 20px;
+  padding: 10px 25px;
 }
 
 .get-touch {
