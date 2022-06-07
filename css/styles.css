@@ -336,7 +336,7 @@ ul {
 
 .contact {
   width: 400px;
-  height: 860px;
+  height: 845px;
   background: #6070ff;
   background-image: url("../images/contact_form.svg");
   background-repeat: no-repeat;
@@ -414,4 +414,14 @@ input {
 
 .shape-rectangule {
   padding: 10%;
+}
+
+.shape-line {
+  width: 134px;
+  height: 5px;
+  margin-left: 125px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-top: 10px;
 }
