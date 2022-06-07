@@ -109,12 +109,23 @@ form li {
   margin-left: 40px;
 }
 
-.button-shape ul {
-  padding-top: 1px;
-  display: inline-flex;
+ul {
+  list-style: none;
+  padding-left: 1px;
+  margin-top: 1px;
 }
 
-.button-form { margin-left: 1px; }
+.button-shape {
+  display: flex;
+  padding-left: 1px;
+}
+
+.button-shape ul {
+  display: inline-flex;
+  padding-left: 1px;
+}
+
+.button-form { margin-left: 24px; }
 
 .languages-list li {
   padding: 4px 12px;
@@ -254,12 +265,6 @@ form li {
   display: block;
   align-items: center;
   color: #253858;
-}
-
-ul {
-  list-style: none;
-  padding-left: 1px;
-  margin-top: 1px;
 }
 
 #languages {
@@ -402,7 +407,7 @@ input {
   border-radius: 5px;
   border: none;
   color: #396df2;
-  margin-left: 25px;
+  margin-left: 0%;
 }
 
 .arrow {
