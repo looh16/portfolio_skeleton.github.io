@@ -25,10 +25,9 @@
                 <!-- NAV MENU -->
                 <div class="nav-links">
                     <div class="menu-togle">
-                        <img src="images/Union.svg"
-                            alt="Menu Icon">
+                        <img src="images/Union.svg" alt="Menu Icon">
                     </div>
-                
+
                     <ul class="menu">
                         <li>Portoflio</li>
                         <li>About</li>
@@ -115,7 +114,7 @@
                         <h2>Facebook 360</h2>
                         <p class="card-subtitle">FACEBOOK &#8226;Full Stack Dev &#8226;2022</p>
                         <p class="card-message">
-                            Exploring the future of media in Facebook's first Virtual Reality<br>app; 
+                            Exploring the future of media in Facebook's first Virtual Reality<br>app;
                             a place to discover and enjoy 360 photos and videos on<br>Gear VR.
                         </p>
                         <ul class="languages-list">
@@ -133,7 +132,7 @@
                         <h2>Uber Navigation</h2>
                         <p class="card-subtitle">Uber &#8226;Lead Developer &#8226;2022</p>
                         <p class="card-message">
-                            A smart assistant to make driving more safe, efficient, and 
+                            A smart assistant to make driving more safe, efficient, and
                             fun<br>by unlocking your most expensive computer: your car.
                         </p>
                         <ul class="languages-list">
@@ -147,10 +146,67 @@
 
             </section>
 
+            <section class="about-my-self">
+                <div class="myself">
+                    <h3>About<br> Myself</h3>
+
+                    <p>
+                        Hello I’m a software developer! I can help you build a product ,
+                         feature or website Look through some of my work and 
+                        experience! If you like what you see and have a project you 
+                        need coded, don’t hestiate to contact me.
+                    </p>
+                    <h4>LET’S CONNECT</h4>
+
+                    <ul>
+                        <li><a href="https://github.com/looh16/Portfolio"><img src="images/git.svg" alt="Github"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/custodio-serafim-2a318a23a"><img
+                            src="images/Linkedin_icon.svg" alt="Linkedin"></a></li>
+                         <li><a href="default.asp"><img src="images/like.svg" alt="Social Midia"></a></li>
+                        <li><a href="https://twitter.com/custodiolanga1"><img src="images/twitter.svg"
+                                    alt="twitter"></a>
+                        </li>
+                        <li><a href="default.asp"><img src="images/M.svg" alt="Social Midia"></a></li>
+                    </ul>
+
+                    <button type="button" class="button-resume">Get my resume</button>
+                </div>
+
+                <div class="menu-languages">
+                    <button type="button" class="menu-button" onclick="showItens()">Languages <img
+                            src="images/arrow.svg" alt="twitter" class="arrow"></button>
+                    <div id="languages">
+                        <ul class="programing-languages">
+                            <li><a href="#"><img src="images/javascript.svg" alt="Javascript"></a></li>
+                            <li><a href="#"><img src="images/html.svg" alt="HTMN"></a></li>
+                            <li><a href="#"><img src="images/css.svg" alt="CSS"></a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="menu-button">Frameworks<img src="images/disabled-arrow.svg"
+                            alt="twitter" class="arrow"></button>
+                    <button type="button" class="menu-button">Skills<img src="images/disabled-arrow.svg" alt="twitter"
+                            class="arrow"></button>
+                </div>
+            </section>
+
 
         </div>
 
     </main>
+
+    <script>
+
+        function showItens() {
+            var list = document.getElementById("languages");
+
+            if (list.style.display === "none") {
+                list.style.display = "block";
+            } else {
+                list.style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 
