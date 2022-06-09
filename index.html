@@ -7,6 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Portifolio</title>
+
+    <script>
+
+        function showItens() {
+            var list = document.getElementById("languages");
+
+            if (list.style.display === "none") {
+                list.style.display = "block";
+            } else {
+                list.style.display = "none";
+            }
+        }
+    </script>
+    
 </head>
 
 <body class="body">
@@ -184,20 +198,50 @@
             </div>
         </section>
 
+        <section class="contact">
+            <div class="contact-title">
+                <h2>Contact me</h2>
+            </div>
+            <div class="contact-information">
+                <p>
+                    If you have an application you<br> are interested in developing,
+                    a<br> feature that you need built or a<br> project
+                    that needs coding. I’d<br> love to help with it
+                </p>
+            </div>
+    
+            <form>
+                <ul>
+                    <li>
+                      <input type="text" id="name" value="Yeremias" name="user_name">
+                    </li>
+                    <li>
+                      <input type="email" id="mail" name="user_email" value="natajayanj14@gmail.com">
+                    </li>
+                    <li>
+                      <textarea id="msg" name="user_message" placeholder="Write your message here" class="input-area" rows="7" cols="35"></textarea>
+                    </li>
+                    <li class="button-shape">
+                        <ul>
+                            <li class="button-form">
+                                <button type="button" class="get-touch">Get It Touch</button>     
+                            </li>
+                            <li>
+                                <img src="images/Ellipse.png" alt="image" class="img">
+                                <img src="images/Rectangle.png" alt="image" >
+                                    
+                            </li>
+                        </ul>
+                       
+                    </li>
+                   
+                </ul>
+            </form>
+            <div class="shape-line"></div>
+    
+        </section>
+
     </div>
-
-    <script>
-
-        function showItens() {
-            var list = document.getElementById("languages");
-
-            if (list.style.display === "none") {
-                list.style.display = "block";
-            } else {
-                list.style.display = "none";
-            }
-        }
-    </script>
 
 </body>
 
