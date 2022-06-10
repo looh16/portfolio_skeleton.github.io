@@ -326,12 +326,13 @@ nav ul {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  width: fit-content;
 }
 
 .myself {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  width: fit-content;
 }
 
 .myself h3 {
@@ -340,15 +341,16 @@ nav ul {
   font-size: 40px;
   line-height: 52px;
   color: #091e42;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .myself p {
+  width: 430px;
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
   color: #344563;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .myself h4 {
@@ -357,7 +359,7 @@ nav ul {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .myself ul li {
@@ -438,6 +440,7 @@ nav ul {
 .contact-me {
   margin-top: 50px;
   align-self: center;
+  width: fit-content;
 }
 
 .form-information {
@@ -465,18 +468,14 @@ nav ul {
 input {
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  margin-left: 25px;
   padding: 10px 60px;
 }
 
 .input-area {
   background: #fff;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  margin-left: 25px;
   resize: none;
-  padding: 5px 21px;
+  padding: 5px 25px;
 }
 
 .get-touch {
@@ -492,7 +491,7 @@ input {
   border-radius: 5px;
   border: none;
   color: #396df2;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .arrow {
