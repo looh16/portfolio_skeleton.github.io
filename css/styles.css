@@ -13,17 +13,69 @@
   justify-content: space-between;
 }
 
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 30px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  align-self: flex-end;
+}
+
+form li {
+  margin-top: 1em;
+  margin-left: 40px;
+}
+
+nav ul li {
+  padding: 5px;
+}
+
+.menu li {
+  width: 63px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.toggle {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
 .header {
   margin-bottom: 100px;
   border-bottom-left-radius: 25px;
 }
 
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
-  padding-top: 1px;
-  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: inline-flex;
 }
 
 .nav-links a {
@@ -40,13 +92,6 @@
   text-decoration: none;
 }
 
-.logo {
-  font-size: 18px;
-  margin-left: 140px;
-  margin-top: 10px;
-  align-self: flex-start;
-}
-
 .logo a {
   width: 76px;
   height: 20px;
@@ -58,36 +103,10 @@
   text-decoration: none;
 }
 
-/* NAVBAR MENU */
-.menu {
-  gap: 2em;
-  font-size: 18px;
-}
-
-ul {
-  list-style: none;
-}
-
 .nav-links {
   display: flex;
   margin-right: 180px;
   margin-top: 10px;
-}
-
-form li {
-  margin-top: 1em;
-  margin-left: 40px;
-}
-
-.menu li {
-  width: 100px;
-  height: 20px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  display: inline-flex;
 }
 
 .languages-list li {
@@ -113,10 +132,6 @@ form li {
   display: inline-flex;
 }
 
-.menu-togle {
-  display: none;
-}
-
 .headline {
   background-image: url("../images/header_bg.jpg");
   background-repeat: no-repeat;
@@ -137,7 +152,7 @@ form li {
   line-height: 60px;
   letter-spacing: 0.37px;
   color: #091e42;
-  padding-top: 180px;
+  padding-top: 140px;
   margin-left: 16%;
 }
 
@@ -169,6 +184,11 @@ form li {
   margin-left: 16%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .card-section {
   display: grid;
   gap: 1rem;
@@ -180,14 +200,9 @@ form li {
 
 .card-section > div {
   padding: 1rem;
-  margin-left: 140px;
-  margin-right: 200px;
-  margin-top: 70px;
-  min-width: min-content;
-  max-height: min-content;
+  margin: 50px;
   display: flex;
   flex-direction: row;
-  background-color: #fff;
   border: 1px solid #fff;
 }
 
@@ -318,7 +333,6 @@ form li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 20px;
 }
 
 .myself h3 {
@@ -328,9 +342,8 @@ form li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
   color: #091e42;
+  margin-left: 20px;
 }
 
 .myself p {
@@ -341,6 +354,7 @@ form li {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-left: 20px;
 }
 
 .myself h4 {
@@ -349,11 +363,13 @@ form li {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-left: 20px;
 }
 
 .myself ul li {
   display: inline-flex;
   padding: 10px;
+  margin-left: 20px;
 }
 
 .intro-message {
@@ -375,6 +391,7 @@ form li {
   border-radius: 5px;
   display: inline-block;
   color: #396df2;
+  margin-left: 20px;
 }
 
 #languages {
@@ -512,7 +529,7 @@ input {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .main-content {
     position: fixed;
     overflow-y: scroll;
@@ -528,10 +545,50 @@ input {
 
   .menu {
     display: none;
+    position: absolute;
+    background-color: teal;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
   }
 
-  .menu-togle {
+  input[type=checkbox]:checked ~ .menu {
     display: block;
-    position: relative;
+  }
+
+  .toggle {
+    display: block;
+    margin-left: 16.67%;
+    margin-right: 10.67%;
+    bottom: 70.83%;
+  }
+
+  .card-section > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .header {
+    margin-bottom: 200px;
+    border-bottom-left-radius: 25px;
+  }
+
+  .about-my-self {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .contact h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 70px;
+  }
+
+  .form-information {
+    margin-right: 70px;
   }
 }
